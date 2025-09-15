@@ -1,6 +1,6 @@
 :root {
     --nav-text-color: red;
-    --main-page-background-color: lightblue;
+    --main-page-background-color: rgb(100, 183, 211);
     --heading-background-color: darkblue;
     --aside-border: 2px solid #04044e;
     --aside-background-color: #f51414;
@@ -11,6 +11,8 @@
 main {
     max-width: 840px;
     background-color: var(--main-page-background-color);
+    border: var(--aside-border);
+    padding: 7px;
 }
 
 aside {
