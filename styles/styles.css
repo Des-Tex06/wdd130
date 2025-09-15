@@ -1,20 +1,32 @@
+:root {
+    --nav-text-color: red;
+    --main-page-background-color: lightblue;
+    --heading-background-color: darkblue;
+    --aside-border: 2px solid #04044e;
+    --aside-background-color: #f51414;
+    --aside-text-color: #04044e;
+}
+
+
 main {
     max-width: 840px;
+    background-color: var(--main-page-background-color);
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0,0,0/0.2); 
+    border: var(--aside-border); 
     padding: 1rem;
-    background-color: #f51414;
-    color: #04044e;
+    background-color: var(--aside-background-color);
+    color: var(--aside-text-color);
     text-align: center;
 }
 
 aside img{
     width: 200px;
     height: auto;
+    border: var(--aside-border);
 }
 
 nav {
@@ -23,13 +35,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--nav-text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
 }
 
 main img {
