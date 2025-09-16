@@ -1,34 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --nav-text-color: red;
     --main-page-background-color: rgb(100, 183, 211);
     --heading-background-color: darkblue;
-    --aside-border: 2px solid #04044e;
-    --aside-background-color: #f51414;
-    --aside-text-color: #04044e;
 }
 
 
 main {
     max-width: 840px;
     background-color: var(--main-page-background-color);
-    border: var(--aside-border);
-    padding: 7px;
+    border: 2px solid darkblue;
+    padding: 2px;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: var(--aside-border); 
-    padding: 1rem;
-    background-color: var(--aside-background-color);
-    color: var(--aside-text-color);
+    position: relative;
+    width: 300px;
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
-    border: var(--aside-border);
+    border: 2px darkblue;
+}
+
+aside h2 {
+    position: absolute;
+    top: 14px;
+    left: 110px;
 }
 
 nav {
@@ -39,19 +45,22 @@ nav {
 nav a {
     color: var(--nav-text-color);
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: var(--heading-background-color);
+    text-align: center;
 }
 
 main img {
+    float: right;
     width: 150px; 
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: 2px solid black;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
+    margin: 0;
 }
 
 p {
@@ -62,4 +71,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* CSS Class Selectors*/
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px dotted rgb(1, 2, 77);
+    background-color: rgb(245, 52, 52);
+    color: black
 }
