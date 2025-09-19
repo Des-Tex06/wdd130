@@ -78,3 +78,7 @@ article {
     float: right;
     width: 125px;
 }
+
+section, footer {
+    color: black
+}
