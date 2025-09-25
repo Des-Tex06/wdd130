@@ -6,15 +6,15 @@
 
 
 :root {
-    --nav-text-color: red;
+    --nav-text-color: rgb(245, 52, 52);
     --main-page-background-color: rgb(100, 183, 211);
-    --heading-background-color: darkblue;
+    --heading-background-color: #130656;
 }
 
 
 main {
     background-color: var(--main-page-background-color);
-    border: 2px solid darkblue;
+    border: 2px solid #130656;
     padding: 8px;
 }
 
@@ -28,7 +28,7 @@ aside img {
     position: static;
     width: 200px;
     height: auto;
-    border: 2px darkblue;
+    border: 2px #130656;
 }
 
 aside h2 {
@@ -38,7 +38,7 @@ aside h2 {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: #130656;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -84,7 +84,7 @@ footer {
 .box {
     margin: 1rem;
     padding: 1rem;
-    border: 2px solid rgb(1, 2, 77);
+    border: 2px solid #130656;
     background-color: rgb(245, 52, 52);
     color: black
 }
