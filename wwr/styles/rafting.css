@@ -66,7 +66,7 @@ h1 {
 article {
     position: absolute;
     top: 435px;
-    width: 96%;
+    width: 96.4%;
     padding: 12px;
     text-align: center;
     opacity: 0.7;
@@ -82,3 +82,28 @@ article {
 section, footer {
     color: black
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 1fr ;
+    grid-gap: 10px;
+    place-items: flex-end;
+
+}
+
+.flex {
+    background-color: #aba;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid #123e54 2px;
+    padding: 8px;
+    list-style: none;
+    flex: 1 1 auto;
+    flex-direction: wrap;
+} 
+
+
+
+
+
