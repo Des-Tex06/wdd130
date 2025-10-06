@@ -83,27 +83,29 @@ section, footer {
     color: black
 }
 
-.grid {
+.grid-nav {
     display: grid;
-    grid-template-columns: 300px 1fr ;
-    grid-gap: 10px;
-    place-items: flex-end;
-
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    border: solid #123e54 2px;
 }
 
-.flex {
-    background-color: #aba;
+.flex-nav {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: solid #123e54 2px;
-    padding: 8px;
     list-style: none;
     flex: 1 1 auto;
-    flex-direction: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 } 
 
-
-
-
+.nav-item {
+    background-color: #aba;
+    height: auto;
+    width: 100px;
+    border: solid #123e54 1.5px;
+    padding: 9px;
+    text-decoration: none;
+    list-style: none;
+}
 
