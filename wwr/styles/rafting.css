@@ -101,10 +101,10 @@ section, footer {
 
 .nav-item {
     background-color: #aba;
-    height: auto;
+    height: 40px;
     width: 100px;
     border: solid #123e54 1.5px;
-    padding: 9px;
+    padding: 8px;
     text-decoration: none;
     list-style: none;
 }
