@@ -63,6 +63,10 @@ h1 {
     color: white
 }
 
+h2, h3 {
+  text-align: center;
+  color: rgb(5, 90, 5);
+}
 article {
     position: absolute;
     top: 435px;
@@ -107,5 +111,35 @@ section, footer {
     padding: 8px;
     text-decoration: none;
     list-style: none;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 600px 1fr 1fr;
+    gap: 2px;
+    
+}
+
+.main-item1 {
+    height: 577px;
+    max-width: 840px;
+    border: solid #123e54 1.5px;
+}
+
+.main-item2 {
+    height: 200px;
+    max-width: 840px;
+    border: solid #123e54 1.5px;
+    background-color: #aba;
+    color: rgb(4, 4, 92);
+}
+
+.main-item3 {
+    height: 200px;
+    max-width: 840px;
+    border: solid #123e54 1.5px;
+    background-color: #aba;
+    color: rgb(4, 4, 92);
 }
 
