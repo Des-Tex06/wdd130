@@ -141,5 +141,20 @@ section, footer {
     border: solid #123e54 1.5px;
     background-color: #aba;
     color: rgb(4, 4, 92);
+    align-items: flex-end;
 }
 
+
+.figure img {
+    display: flex;
+    height: auto;
+    width: 130px;
+    border: solid #123e54 1.5px;
+    text-decoration: none;
+    list-style: none;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
