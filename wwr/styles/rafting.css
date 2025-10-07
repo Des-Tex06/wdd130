@@ -139,7 +139,6 @@ section, footer {
     align-items: flex-end;
 }
 
-
 .figure img {
     display: flex;
     height: auto;
@@ -153,7 +152,7 @@ section, footer {
     justify-content: center;
 }
 
-footer {
+.flex-footer {
     height: 80px;
     width: 835px;
     border: solid #123e54 1.5px;
@@ -161,15 +160,10 @@ footer {
     color: rgb(4, 4, 92);
     text-align: center;
     justify-content: flex-end;
-}
-
-.socialmedia a {
+    flex-direction: row;
     text-decoration: none;
     display: flex;
-    flex-direction: row;
     height: auto;
-    width: 40px;
-    border: solid #123e54 1.5px;
     list-style: none;
-    justify-content: end;
+    justify-content: flex-end;
 }
