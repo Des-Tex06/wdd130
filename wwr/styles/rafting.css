@@ -38,10 +38,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -118,7 +114,6 @@ section, footer {
     grid-template-columns: auto;
     grid-template-rows: 600px 1fr 1fr;
     gap: 2px;
-    
 }
 
 .main-item1 {
@@ -156,5 +151,25 @@ section, footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+footer {
+    height: 80px;
+    width: 835px;
+    border: solid #123e54 1.5px;
+    background-color: #aba;
+    color: rgb(4, 4, 92);
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 40px;
+    border: solid #123e54 1.5px;
+    list-style: none;
+    justify-content: end;
 }
