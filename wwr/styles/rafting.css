@@ -59,10 +59,19 @@ h1 {
     color: white
 }
 
-h2, h3 {
+h2 {
   text-align: center;
   color: rgb(5, 90, 5);
 }
+
+h3 {
+    position: absolute;
+    align-self: baseline;
+    text-align: center;
+    color: rgb(5, 90, 5);
+    font-style: var(--heading-font)
+}
+
 article {
     position: absolute;
     top: 435px;
@@ -132,25 +141,29 @@ section, footer {
 
 .main-item3 {
     display: flex;
-    height: 250px;
+    height: 240px;
     max-width: 900px;
     border: solid #123e54 1.5px;
     background-color: #aba;
     color: rgb(4, 4, 92);
-    align-items: center;
+    align-items: last baseline;
     flex-direction: row;
     list-style: none;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
 }
+
 .figure img {
     height: auto;       
-    width: 85px;
+    width: 160px;
     border: solid #123e54 1.5px;
     list-style: none;
-    
+}
+
+figcaption {
+    font-size: smaller;
 }
 
 .flex-footer {
