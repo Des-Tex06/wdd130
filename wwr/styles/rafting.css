@@ -10,6 +10,7 @@
     --font-color: rgb(4, 4, 77);
     --accent-color: rgb(145, 143, 143);
     --border: 3px solid var(--accent-color);
+    --width: 840px;
 }   
 
 body {
@@ -60,6 +61,8 @@ nav, p, section, article {
     width: 4rem;
     height: auto;
     float: right;
+    margin: 0 auto;
+
 }
 
 .hero {
@@ -87,7 +90,7 @@ section {
     border: var(--border);
 }
 
-article {
+.hero article{
     position: absolute;
     width: 800px;
     height: 6.2rem;
@@ -105,6 +108,7 @@ article {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
+    border: var(--border);
 }
 
