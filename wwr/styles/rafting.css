@@ -10,7 +10,6 @@
     --font-color: rgb(4, 4, 77);
     --accent-color: rgb(145, 143, 143);
     --border: 3px solid var(--accent-color);
-    --width: 840px;
 }   
 
 body {
