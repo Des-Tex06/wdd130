@@ -9,6 +9,7 @@
     --primary-font: "Times New Roman", "Arial", "Helvetica";
     --font-color: rgb(4, 4, 77);
     --accent-color: rgb(145, 143, 143);
+    --border: 3px solid var(--accent-color);
 }   
 
 body {
@@ -21,10 +22,29 @@ header, main, footer {
     margin: auto;
 }
 
+header {
+    background-color: var(--primary-color);
+}
+
+header img {
+    border: var(--border);
+    background-color: #fff;
+}
+
+header nav {
+    background-color: white;
+    border: var(--border);
+    text-decoration: none;
+    width: fit-content;
+    padding: 2%;
+    margin: 0;
+}
+
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--font-color);
     text-align: center;
+    background-color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -34,6 +54,12 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: auto;
+    float: right;
 }
 
 .hero {
@@ -57,6 +83,10 @@ h1 {
     color: var(--primary-font);
 }
 
+section {
+    border: var(--border);
+}
+
 article {
     position: absolute;
     width: 800px;
@@ -73,3 +103,8 @@ article {
     width: 125px;
     margin: 0 auto;
 }
+
+footer {
+    text-align: center;
+}
+
