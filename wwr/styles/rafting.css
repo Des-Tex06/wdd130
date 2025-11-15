@@ -105,9 +105,10 @@ footer {
     height: 80px;
 }
 
+
 .socialmedia a {
     text-decoration: none;
-    width: 3.5rem;
+    width: 60px;
     height: auto;
     margin: 0 auto;
     float: right;
