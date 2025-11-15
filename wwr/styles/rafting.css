@@ -24,6 +24,8 @@ header, main, footer {
 
 header {
     background-color: var(--primary-color);
+    margin-bottom: 15px;
+    border: var(--border);
 }
 
 header img {
@@ -64,6 +66,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    border: var(--border);
 }
 
 h1 {
@@ -102,7 +105,7 @@ footer {
     text-align: center;
     border: var(--border);
     clear: none;
-    height: 80px;
+    height: 150px;
 }
 
 
