@@ -34,11 +34,15 @@ header img {
 header nav {
     background-color: white;
     border: var(--border);
-    text-decoration: none;
     width: fit-content;
     padding: 2%;
-    margin: 0;
+    margin: 0%;
 }
+
+nav a {
+    text-decoration: none;
+}
+
 
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -50,18 +54,6 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 4rem;
-    height: auto;
-    float: right;
-    margin: 0 auto;
-
 }
 
 .hero {
@@ -107,7 +99,20 @@ section {
 }
 
 footer {
-    text-align: left;
+    text-align: center;
     border: var(--border);
+    clear: none;
+    height: 80px;
 }
+
+
+.socialmedia a {
+    text-decoration: none;
+    display: inline;
+    width: 3.5rem;
+    height: auto;
+    margin: 0 auto;
+    float: right;
+}
+
 
