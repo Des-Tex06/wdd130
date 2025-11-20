@@ -7,7 +7,7 @@
 
 :root {
     --navigation-heading-color: darkblue;
-    --box-color: rgb(238, 195, 153);
+    --box-color: rgb(218, 200, 179);
     --image-border: 1px solid black; 
 }
 
@@ -109,4 +109,5 @@ footer {
     padding: 1rem;
     background-color: var(--box-color);
     color: black;
+    text-decoration: none;
 }   
