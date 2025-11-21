@@ -31,6 +31,7 @@ nav {
 nav a {
     display: block;
     text-decoration: none;
+    list-style: none;
     color: white;
     display: block;
     padding: 0.5rem;
@@ -108,6 +109,7 @@ footer {
     border: var(--image-border);
     padding: 1rem;
     background-color: var(--box-color);
+    list-style: none;
 }   
 
 ul a {
