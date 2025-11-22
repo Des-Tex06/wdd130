@@ -13,6 +13,7 @@
 }   
 
 body {
+    display: block;
     font-family: var(--primary-font);
     color: var(--font-color);
 }
@@ -59,7 +60,7 @@ header img {
 
 main {
     display: grid;
-    grid-template-rows: 1/4;
+    grid-row: 1/4;
 }
 
 h1, h2 {
@@ -142,8 +143,9 @@ footer {
 
 .figure img { 
     position: relative;
+    float: right;
     width: 200px;
     height: auto;
-    margin: 1%;
+    margin: 1% auto;
     
 }
