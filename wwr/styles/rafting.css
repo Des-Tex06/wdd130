@@ -141,11 +141,17 @@ footer {
 
 }
 
-.figure img { 
+
+.section figure { 
     position: relative;
-    float: right;
-    width: 200px;
+    float: left;
     height: auto;
+    left: 38px;
+    padding: 1%;
     margin: 1% auto;
-    
+    text-align: center;
+}
+
+.section figure img {
+    max-width: 120px;
 }
