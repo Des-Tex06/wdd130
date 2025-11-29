@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- Note: type in html:5 to produce the html structure including doctype, lang and head. -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1> 🏞 Basic HTML & CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box"> <!--Type .quiz-item and it will produce this div class-->
+                <label for="q1">1. What is the capitol of the Republic of Ireland?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+            <div class="quiz-item box"> <!--Type .quiz-item and it will produce this div class-->
+                <label for="q2">2. What are the four provinces of Ireland?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item box"> <!--Type .quiz-item and it will produce this div class-->
+                <label for="q3">3. What is the offical language of the Republic of Ireland?
+                    Ireland?</label>
+                <select type="select" id="q3" name="q3">
+                    <option value="choose an answer">choose an answer</option>
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                    <option value="irish">Gaeilge (Irish)</option>
+                </select>
+            </div>
+            <div class="quiz-item box"> <!--Type .quiz-item and it will produce this div class-->
+                <label for="q4">4. What is the bottom margin given for this declaration?</label>
+                <code class="box">margin: 10px 5px 15px;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit quiz for grading</button>
+        </form>
+    </main>
+</body>
+
+</html>

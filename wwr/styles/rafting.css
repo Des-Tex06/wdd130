@@ -119,9 +119,11 @@ section {
     margin: 0 auto;
 }
 
-.section img {
-    width: 300px;
-    float: left;
+.history img{
+    position: relative;
+    width: 250px;
+    right: 250px;
+    float: right;
     margin: 2%;
 }
 
