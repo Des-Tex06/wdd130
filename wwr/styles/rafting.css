@@ -119,12 +119,16 @@ section {
     margin: 0 auto;
 }
 
+.history {
+    text-align: left;
+}
+
+
 .history img{
     position: relative;
     width: 250px;
-    right: 250px;
-    float: right;
-    margin: 2%;
+    left: 215px;
+    float: center;
 }
 
 footer {
