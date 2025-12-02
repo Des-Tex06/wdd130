@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description"
+        content="The Contact Us page of the White Water Rafting Company website includes company name, address, email, phone number and a user form for contact.">
+    <meta name="author" content="Corbin Long">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-oars.png" alt="White Water Rafting logo with oars.">
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </div>
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d132019.5188386692!2d-122.69040169526535!3d40.90692188845975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1764483411243!5m2!1sen!2sus"
+                width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <div class="form-item column1">
+                    <label for="name">Name </label>
+                    <input type="text" id="name" name="name" placeholder="Enter name">
+                </div>
+                <div class="form-item column1 ">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" placeholder="Enter email">
+                </div>
+                <legend>Message Purpose</legend>
+                <div class="form-item column2 radio">
+                    <input type="radio" id="generalinquiry" name="messagepurpose" value="generalinquiry">
+                    <label for="generalinquiry">General Inquiry </label>
+                    <input type="radio" id="reservationquestion" name="messagepurpose" value="reservationquestion">
+                    <label for="reservationquestion">Reservation Question </label>
+                    <input type="radio" id="websitesuggestion" name="messagepurpose" value="websitesuggestion">
+                    <label for="generalinquiry">Website Suggestion</label>
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter message here:"></textarea>
+                <div class="form-item column3 checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+        </section>
+        <section class="section figure profile img caption">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/paulputnam-instructor.jpg" alt="Employee profile of Paul Putnam, instructor.">
+                <figcaption>Paul Putnam - Instructor</figcaption>
+            </figure>
+            <figure>
+                <img src="images/david-assistantmanager.jpg" alt="Employee profile of David, assistant manager.">
+                <figcaption>David - Assistant Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bryanulrich-lifeguard.jpg" alt="Employee profile of Bryan Ulrich, lifegaurd. ">
+                <figcaption>Bryan Ulrich - Lifegaurd</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 🌊 White Water Rafting Company 🌊 Corbin Long</p>
+        <nav class="socialmedia a">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook-square.svg" alt="Facebook icon" width="40">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram-square.svg" alt="Instagram icon." width="40">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube-square.svg" alt="Youtube icon." width="40">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

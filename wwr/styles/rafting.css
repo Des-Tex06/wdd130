@@ -63,6 +63,122 @@ main {
     grid-row: 1/4;
 }
 
+.contact-info h1 {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 11px;
+    opacity: 0.9;
+    left: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 1%;
+}
+.contact-info {
+    color: black;
+    text-align: center; 
+    margin-top: 4%;
+    white-space-collapse: collapse;
+}
+
+.container {
+    height: 360px;
+}
+
+iframe {
+    position: relative;
+    left: 5%;
+}
+
+form {
+    position: relative;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    left: 150px;
+    bottom: 375px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    color: black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+input {
+    padding: 0.4rem;
+    border-radius: .2rem;
+    border: 1.5px solid rgb(0 0 0 / 0.5);
+}
+
+legend {
+    position: relative;
+    top: 60px;
+    width: 20px;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.14rem 0;
+
+}
+
+.column2 {
+    grid-template-columns: 0.1fr 2fr;
+    margin: 0.5rem;
+}
+
+.column3 {
+    grid-template-columns: 0.1fr 2fr;
+    margin: 0.4rem;
+}
+
+.radio {
+    text-align: left;
+    grid-gap: 0.9rem;
+    position: relative;
+    left: 90px;
+    
+}
+
+.checkbox {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+textarea {
+    border-radius: 3.4%;
+    margin-top: 1%;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    right: 5.9px;
+}
+
+button {
+    margin: .1rem;
+    padding: 2.4%;
+    font-size: 0.8rem;
+    border-radius: .2rem;
+    border: 2px solid rgb(1 1 1 / 0.2);
+    text-align: center;
+}
+
+button:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--font-color);
@@ -160,4 +276,14 @@ footer {
 
 .section figure img {
     max-width: 120px;
+}
+
+.profile img{
+    position: relative;
+    left: 50%;
+}
+
+figcaption {
+    position: relative;
+    left: 50%;
 }
