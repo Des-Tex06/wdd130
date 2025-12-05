@@ -65,8 +65,8 @@ main {
 }
 
 .contact-info h1 {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 265px;
     width: 100%;
     font-size: 1.4rem;
     padding: 11px;
@@ -79,7 +79,8 @@ main {
     color: black;
     text-align: center;
     white-space-collapse: collapse;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
 
 .container {
@@ -218,7 +219,6 @@ nav, p, section, article {
 }
 
 
-
 h1 {
     position: absolute;
     top: 20px;
@@ -313,7 +313,7 @@ footer {
 } */
 
 
-footer nav {
+.socialmedia {
     position: relative;
     bottom: 20px;
     display: flex;
