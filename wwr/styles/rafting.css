@@ -67,11 +67,11 @@ main {
 .contact-info h1 {
     position: absolute;
     top: 265px;
-    width: 100%;
+    width: 400px;
     font-size: 1.4rem;
     padding: 11px;
     opacity: 0.9;
-    left: 10px;
+    left: 486px;
     text-align: center;
     color: black;
 }
